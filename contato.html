@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contato</h1>
+
+        <form>
+            <fieldset class="form-control">
+                <legend>Dados:</legend>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" />
+            </fieldset>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Digite seu email" />
+            </div>
+
+            <div class="form-control">
+                <h2>Cursos</h2>
+                <input type="checkbox" id="javascript" />
+                <label for="javascript">JavaScript</label>
+
+                <input type="checkbox" id="html" />
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" />
+                <label for="css">CSS</label>
+            </div>
+
+            <div class="form-control">
+                <label for="new-cursos">Novos cursos</label>
+                <select id="new-cursos">
+                    <option value="curso">Selecione um curso</option>
+                    <option value="c#">C#</option>
+                    <option value="ux">UX</option>
+                    <option value="php" selected>PHP</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <div class="c-data">
+                    <label for="data">Data</label>
+                    <input type="date" id="data" />
+                </div>
+
+                <div>
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" />
+                </div>
+            </div>
+
+            <div class="form-control">
+                <div class="c-cor">
+                    <label for="cor">Selecione uma cor: </label>
+                    <input type="color" id="cor" />
+                </div>
+                <div>
+                    <label for="filtro">Escolha um número</label>
+                    <input type="range" id="filtro" />
+                </div>
+            </div>
+
+            <div class="form-control">
+                <h2>Você tem mais de 20 anos?</h2>
+                <input type="radio" name="idade" id="sim" />
+                <label for="sim">Sim</label>
+                <br>
+                <input type="radio" name="idade" id="nao" />
+                <label for="nao">Não</label>
+            </div>
+
+            <div class="form-control">
+                <label for="comentarios">Comentários</label>
+                <textarea id="comentarios" rows="5" cols="50"></textarea>
+            </div>
+
+            <div class="form-control">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+        <br>
+    </div>
+    
+</body>
+</html>
