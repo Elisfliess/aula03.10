@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: rgb(88, 88, 88);
+}
+
+.container {
+    background: #fff;
+    /*Tamanho largura*/
+    max-width: 1000px;
+    /* Centro da tela */
+    margin: 0 auto;
+}
+
+.container h1 {
+    padding: 10px 0 0 10px;
+}
+
+.containerTable {
+    /*Tamanho largura*/
+    max-width: 700px;
+    /* Centro da tela */
+    margin: 30px auto;
+}
+
+.containerTable table {
+    width: 100%;
+}
+
+.backgroundTitle {
+    background: #8B2323;
+    color: #fff;
+}
+
+.backgroundPrime, .backgroundPrime2 {
+    background: #008B45;
+    color: #fff;
+    /*Centralizar texto*/
+    text-align: center;
+}
+
+/* Página de contato */
+.form-control {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(6, 42, 170);
+}
+
+fieldset legend {
+    padding: 10px;
+}
+
+.form-control input[type="text"],
+.form-control input[type="date"],
+.form-control input[type="email"],
+.form-control input[type="time"]
+{
+    width: 100%;
+    max-width: 300px;
+    height: 20px;
+    border: 2px solid rgb(4, 102, 91);
+    padding: 4px;
+    outline: none;
+}
+
+textarea {
+    border: 2px solid rgb(4, 102, 91);
+    width: 100%;
+}
+
+button {
+    background: rgb(34, 8, 203);
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+select {
+    /* Largura */
+    width: 100%;
+    /* Altura */
+    height: 30px;
+}
+
+.c-data, .c-cor {
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.containerCards {
+    margin: 20px;
+      /*flexBox*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 300px;
+    border: 1px solid #f83200;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #f83200;
+    padding: 10px;
+    display: block;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
